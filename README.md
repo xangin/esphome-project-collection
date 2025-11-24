@@ -23,10 +23,10 @@
 ### ❄️ 智慧冷氣控制系列 (Smart AC Control)
 針對不同品牌冷氣通訊協定的 ESPHome 實作，讓傳統冷氣輕鬆接入 Home Assistant。
 
-* **🇹🇼 TaiSEIA 協定支援**
+* ** TaiSEIA 協定支援**
     * [TaiSEIA_ESPhome_samples](https://github.com/xangin/TaiSEIA_ESPhome_samples) - 支援台灣智慧能源產業協會 (TaiSEIA) 標準通訊協定的範例，適用於台灣多數具備 TaiSEIA 介面的家電。
 
-* **🇯🇵 日本品牌支援**
+* ** 日本品牌支援**
     * [Daikin-ESPhome](https://github.com/xangin/Daikin-ESPhome) - 大金 (Daikin) 冷氣專用控制模組，基於 ESP32-C3 晶片設計。
     * [mhi-ac-ctrl-esp32-c3](https://github.com/xangin/mhi-ac-ctrl-esp32-c3) - 三菱重工 (Mitsubishi Heavy Industries) 冷氣控制，基於 ESP32-C3 晶片設計。
     * [MitsubishiCN105ESPHome](https://github.com/xangin/MitsubishiCN105ESPHome) - 三菱電機 (Mitsubishi Electric) CN105 介面專用控制，基於 ESP32-C3 晶片設計。
