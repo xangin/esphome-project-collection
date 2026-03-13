@@ -10,8 +10,20 @@
 
 ## 📂 專案目錄 (Project Categories)
 
+### ❄️ 智慧冷氣控制系列 (Smart AC Control)
+針對不同品牌冷氣通訊協定的 ESPHome 實作，讓傳統冷氣輕鬆接入 Home Assistant。
+
+* **TaiSEIA 協定支援 (國際、日立)**
+    * [TaiSEIA_ESPhome_samples](https://github.com/xangin/TaiSEIA_ESPhome_samples) - 支援台灣智慧能源產業協會 (TaiSEIA) 標準通訊協定的範例，目前適用台灣販售的國際與日立冷氣。
+
+* **日本品牌支援**
+    * [Daikin-ESPhome](https://github.com/xangin/Daikin-ESPhome) - 大金 (Daikin) 冷氣專用控制模組，以 ESP32-C3 模組為例。
+    * [mhi-ac-ctrl-esp32-c3](https://github.com/xangin/mhi-ac-ctrl-esp32-c3) - 三菱重工 (Mitsubishi Heavy Industries) 冷氣控制，以 ESP32-C3 模組為例。
+    * [MitsubishiCN105ESPHome](https://github.com/xangin/MitsubishiCN105ESPHome) - 三菱電機 (Mitsubishi Electric) CN105 介面專用控制，以 ESP32-C3 模組為例。
+    * [FujitsuAC_ESPhome](https://github.com/xangin/FujitsuAC_ESPhome) - 富士通 (Fujitsu) 冷氣專用控制模組，以 ESP32 模組為例。
+
 ### 📺 E-Paper 電子紙顯示系列
-專注於低功耗資訊看板、氣象站與各式尺寸電子紙的 ESPHome 驅動整合。
+低功耗資訊看板、氣象站與各式尺寸電子紙的 ESPHome 驅動整合。
 
 | 專案名稱 | 說明 |
 | :--- | :--- |
@@ -20,16 +32,6 @@
 | **[esphome-eink-dashboard](https://github.com/xangin/esphome-eink-dashboard)** | 基於 ESPHome 的通用型電子紙儀表板配置。 |
 | **[esphome_eink2.9_series](https://github.com/xangin/esphome_eink2.9_series)** | 針對 2.9 吋電子紙系列的驅動與應用範例。 |
 
-### ❄️ 智慧冷氣控制系列 (Smart AC Control)
-針對不同品牌冷氣通訊協定的 ESPHome 實作，讓傳統冷氣輕鬆接入 Home Assistant。
-
-* **TaiSEIA 協定支援 (國際、日立)**
-    * [TaiSEIA_ESPhome_samples](https://github.com/xangin/TaiSEIA_ESPhome_samples) - 支援台灣智慧能源產業協會 (TaiSEIA) 標準通訊協定的範例，目前適用台灣販售的國際與日立冷氣。
-
-* **日本品牌支援**
-    * [Daikin-ESPhome](https://github.com/xangin/Daikin-ESPhome) - 大金 (Daikin) 冷氣專用控制模組，基於 ESP32-C3 晶片設計。
-    * [mhi-ac-ctrl-esp32-c3](https://github.com/xangin/mhi-ac-ctrl-esp32-c3) - 三菱重工 (Mitsubishi Heavy Industries) 冷氣控制，基於 ESP32-C3 晶片設計。
-    * [MitsubishiCN105ESPHome](https://github.com/xangin/MitsubishiCN105ESPHome) - 三菱電機 (Mitsubishi Electric) CN105 介面專用控制，基於 ESP32-C3 晶片設計。
 
 ### 🔌 其他硬體應用 (Misc & Tools)
 * [WT32-ETH01-esphome-pwm-fan-control](https://github.com/xangin/WT32-ETH01-esphome-pwm-fan-control) - 使用 WT32-ETH01 (乙太網路模組) 實現 PWM 風扇控制，適合需要有線網路穩定性的場景，如機櫃散熱。
