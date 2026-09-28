@@ -2,7 +2,7 @@
 
 歡迎來到我的 IoT 專案集散地！👋
 
-這裡彙整了我開發與維護的開源硬體專案，主要專注於 **ESPHome** 框架的應用、電子紙顯示器（E-Paper）驅動以及各品牌冷氣（HVAC）的智慧控制模組。所有的專案皆旨在讓智慧家庭（Home Assistant）整合變得更簡單、穩定。
+這裡彙整了我開發與維護的開源硬體專案，主要專注於 **ESPHome** 框架的應用、電子紙顯示器（E-Paper）驅動、各品牌冷氣（HVAC）以及浴室暖風機的智慧控制模組。所有的專案皆旨在讓智慧家庭（Home Assistant）整合變得更簡單、穩定。
 
 如果你覺得這些專案對你有幫助，歡迎在個別專案頁面幫我按一顆星星 (⭐ Star)！
 
@@ -21,6 +21,12 @@
     * [mhi-ac-ctrl-esp32-c3](https://github.com/xangin/mhi-ac-ctrl-esp32-c3) - 三菱重工 (Mitsubishi Heavy Industries) 冷氣控制，以 ESP32-C3 模組為例。
     * [MitsubishiCN105ESPHome](https://github.com/xangin/MitsubishiCN105ESPHome) - 三菱電機 (Mitsubishi Electric) CN105 介面專用控制，以 ESP32-C3 模組為例。
     * [FujitsuAC_ESPhome](https://github.com/xangin/FujitsuAC_ESPhome) - 富士通 (Fujitsu) 冷氣專用控制模組，以 ESP32 模組為例。
+
+### 🛁 浴室暖風機控制系列 (Bathroom Heater Control)
+取代原廠有線面板，直接與暖風機主機通訊，把模式、照明、定時與濾網提醒整合進 Home Assistant。
+
+* **樂奇 (Lifegear)**
+    * [esphome-lifegear-bath-heat](https://github.com/xangin/esphome-lifegear-bath-heat) - 樂奇浴室暖風機 ESPHome 外部元件（BD-125W2 實測），免寫 lambda，支援 ESP32 / ESP32-S3 / ESP32-C3，另附 Guition 4 吋觸控面板韌體。
 
 ### 📺 E-Paper 電子紙顯示系列
 低功耗資訊看板、氣象站與各式尺寸電子紙的 ESPHome 驅動整合。
